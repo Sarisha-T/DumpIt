@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+.howcontainer{
+    height: 80vh;
+}
+
+.whyus{
+ 
+ display: flex;
+}
+.text>h1{
+    
+    margin-top: 20vh;
+    flex-direction: column;
+    margin-left:10vw ;
+}
+.text>h2{
+    margin:2vh 2vw 10vh 10vw ; 
+   
+
+    flex-direction: column;
+
+}
+
+
+.howcontainer>.whyus>img{
+    height: 30vh;
+    background-size: cover;
+    margin-left:2vw ;
+    margin-top: 10vh;
+}

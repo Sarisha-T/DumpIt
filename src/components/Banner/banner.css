@@ -1,0 +1,66 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #212227;
+  color:white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+:root {
+  --secondary: #9F838C;
+  --primary: #212227;
+  --gray: #BAABBD;
+  --btn:rgba(255, 255, 255, 0.975);
+  /* #2fbdaa */
+}
+
+.bancontainer{
+  background-image: url("/public/closet.jpg");
+  background-size: cover;
+  background-color: rgba(196, 196, 196, 0.949);
+  height: 98vh; 
+  
+  filter: brightness(1.1);
+   overflow:hidden;
+  background-repeat: no-repeat;
+}
+.bancontainer>span{
+  font-size: 5.2rem;
+  display: flex;
+  flex-direction: column;
+  color: #212227;
+  background-color: #9f838c00;
+   align-items:flex-end;
+  /* text-align: center;  */
+  justify-content: center;
+  margin-top: 30vh;
+  padding-right: 10vw;
+  
+}
+.bancontainer>button{
+  justify-content: center;
+  text-align: center;
+  font-size: large;
+  animation: bounce 1s infinite alternate ease-in-out ;
+  
+  width: 10vw;
+  height: 7vh;
+  padding:0px;
+  /* margin:0px; */
+  margin-left:45vw;
+}
+@keyframes bounce {
+  from {
+   transform: scale(1);
+  }
+
+  to {
+transform: scale(1.1);
+  }
+}
+
+@media (max-width: 998px) {
+.bancontainer {
+
+  }
+}
